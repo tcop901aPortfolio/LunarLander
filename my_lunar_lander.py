@@ -52,13 +52,13 @@ MAIN_ENGINE_Y_LOCATION = (
 )
 
 # ---- REWARD KNOBS (change these to experiment) ----
-W_DIST  = 100.0   # penalty for being far from the landing pad
+W_DIST  = 1000.0   # penalty for being far from the landing pad
 W_SPEED = 100.0   # penalty for moving fast
 W_ANGLE = 100.0   # penalty for being tilted
 W_LEG   = 30.0    # bonus per leg touching the ground
 W_MAIN  = 0.3    # cost of firing the main engine
 W_SIDE  = 0.03    # cost of firing a side engine
-W_TIME  = 0.1     # cost per frame (discourages hovering forever)
+W_TIME  = 1     # cost per frame (discourages hovering forever)
 
 VIEWPORT_W = 600
 VIEWPORT_H = 400
